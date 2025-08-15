@@ -11,7 +11,7 @@ setProducts(allProducts);
 const hasProducts = computed<boolean>(() => Array.isArray(allProducts) && allProducts.length > 0);
 
 onMounted(() => {
-  if (!isQueryEmpty.value) updateProductList();
+  updateProductList({ category: null, search: null });
 });
 
 watch(
