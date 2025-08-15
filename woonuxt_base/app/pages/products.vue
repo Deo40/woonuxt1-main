@@ -11,8 +11,11 @@ setProducts(allProducts);
 const hasProducts = computed<boolean>(() => Array.isArray(allProducts) && allProducts.length > 0);
 
 onMounted(() => {
-  updateProductList({ category: null, search: null });
-});
+  if (!isQueryEmpty.value) {
+    updateProductList();
+  } else {
+    setProducts(allProducts);
+  }
 
 watch(
   () => route.query,
