@@ -3,9 +3,7 @@
     <h1 class="mb-8 text-3xl font-semibold text-primary">Contact Page</h1>
     <div class="my-8 prose">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facilis, commodi illum repellat accusamus praesentium quaerat ut ducimus ipsam deserunt, a voluptate id
-        similique ullam, provident tenetur molestiae ad. Ea aperiam esse eaque aut, beatae consectetur nam velit unde! Et excepturi quam eos labore, nulla impedit recusandae
-        quaerat maxime expedita.
+        Please contact orders@jclothing.co.za
       </p>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo voluptate neque in odio officia assumenda nulla cumque. Veniam et tenetur accusantium, fuga pariatur
